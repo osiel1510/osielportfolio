@@ -1,37 +1,60 @@
 {
+  "navbar": {
+    "home": "Home"
+  },
   "profile": {
     "name": "Osiel Ordoñez",
     "subtitle": "Web Developer",
-    "fact1" : "Im diogo",
-    "fact2" : "Im diogo",
-    "fact3" : "Im diogo",
-    "portfolio" : "Portfolio"
+    "fact1": "Nice to meet you, welcome to my portfolio!",
+    "fact2": "I love programming, designing, and learning new things!",
+    "fact3": "Feel free to contact me or take a look at my work.",
+    "portfolio": "Portfolio"
   },
   "projects": {
-    "visit": "Visit Website",
-    "title" : "My top projects",
-    "project1" : {"title" : "Restaurant Administrator", "description": "lorem lorem lorem loremlorem loremlorem loremlorem loremlorem loremlorem loremlorem lorem",
-      "subproject1" : {
-        "title": "Title",
-        "description": "Description"
-      },
-      "subproject2" : {
-        "title": "Title",
-        "description": "Description"
-      },
-      "subproject3" : {
-        "title": "Title",
-        "description": "Description"
-      }
+    "visit": "Visit Site",
+    "title": "My Featured Projects",
+    "project1": {
+      "title": "LinkFood",
+      "description": "LinkFood is a web system dedicated to restaurant needs, from a virtual menu like Rappi to order management and sales statistics.",
+        "subproject1": {
+          "title": "Online Menu",
+          "description": "This module corresponds to the online menu, where users can view information about the restaurant, such as hours, locations, and social media, as well as browse products and place orders."
+        },
+        "subproject2": {
+          "title": "Order and Command Management",
+          "description": "This module is accessed by waiters and cashiers, where they can create tables, register orders, process payments, and review past orders."
+        },
+        "subproject3": {
+          "title": "Admin Module",
+          "description": "In this module, products, categories, and their options are registered, the restaurant information is customized, and sales statistics are displayed."
+        }
     },
-    "project2" : {"title" : "Restaurant Administrator", "description": "lorem lorem lorem loremlorem loremlorem loremlorem loremlorem loremlorem loremlorem lorem"},
-    "project3" : {"title" : "Restaurant Administrator", "description": "lorem lorem lorem loremlorem loremlorem loremlorem loremlorem loremlorem loremlorem lorem"}
+    "project2": {
+      "title": "Goods and Services Reception",
+      "description": "This consists of a simple application with Bootstrap modals, searchable selectors, data tables, and PDF report generation."
+    },
+    "project3": {
+      "title": "Vikitech",
+      "description": "Vikitech is an e-commerce system that allows showcasing store products, creating a shopping cart, and placing orders. On the admin side, categories, products, and ads can be customized, along with order management."
+    }
   },
   "timeline": {
     "title": "Timeline",
-    "date1": {"title":"", "jobTitle":"", "description":""},
-    "date2": {"title":"", "jobTitle":"", "description":""},
-    "date3": {"title":"", "jobTitle":"", "description":""}
+    "date1": {
+      "title": "State Government",
+      "jobTitle": "Web Developer",
+      "description": "During my time here, I developed complete systems on the Google Appsheet platform, which have been very useful for the secretariat."
+    },
+    "date2": {
+      "title": "COBAT | Internship",
+      "jobTitle": "Web Developer",
+      "description": "During my internship, I developed a system for uploading and managing educational materials for COBAT students."
+    },
+    "date3": {
+      "title": "Mi Rayotaxi",
+      "jobTitle": "Web Developer",
+      "description": "I collaborated with other developers to implement features in a taxi system similar to Uber."
+    }
   },
   "months": {
     "jan": "Jan",

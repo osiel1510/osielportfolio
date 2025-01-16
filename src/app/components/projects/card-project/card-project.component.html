@@ -1,13 +1,25 @@
 <div [ngClass]="this.classColor" class="shadow-lg rounded project-card px-3 pt-3">
   <div class="d-inline-flex flex-column justify-content-center">
-    <img class="mx-auto rounded-circle" style="width: 100px; height: 100px;" [src]="this.img">
+    <!-- Ícono FontAwesome -->
+    <i
+      [ngClass]="this.img"
+      class="mx-auto rounded-circle d-flex justify-content-center align-items-center"
+      style="width: 100px; height: 100px; font-size: 50px; color: white; ">
+    </i>
+
     <h4 class="fw-semibold mt-3">{{this.title}}</h4>
-    <p class="fw-normal">{{this.description}}</p>
+    <!-- Badges para tecnologías -->
+    <div>
+      <span *ngFor="let tech of technologies" class="badge bg-white text-dark me-1" >{{ tech }}</span>
+    </div>
+    <p class="fw-normal mt-3">{{this.description}}</p>
   </div>
 
-  @if (this.sameSite) {
-    <a  class="fw-semibold mt-auto" routerLink="{{this.link}}">{{'projects.visit' | translate}}</a>
-  } @else {
-    <a class="fw-semibold mt-auto" [href]="this.link">{{'projects.visit' | translate}}</a>
-  }
+  <!-- Enlace dinámico -->
+  <ng-container *ngIf="this.sameSite; else externalLink">
+    <a class="fw-semibold mt-auto" [routerLink]="this.link"  (click)="scrollToTop()">{{ 'projects.visit' | translate }} </a>
+  </ng-container>
+  <ng-template #externalLink>
+    <a class="fw-semibold mt-auto" [href]="this.link" target="_blank">{{ 'projects.visit' | translate }}</a>
+  </ng-template>
 </div>

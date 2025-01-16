@@ -18,4 +18,10 @@ export class CardProjectComponent {
   @Input() link!: string;
   @Input() description!: string;
   @Input() sameSite!:boolean;
+  @Input() technologies!:string[];
+
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
 }

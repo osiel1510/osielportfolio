@@ -1,4 +1,4 @@
-<div class="d-flex flex-column w-75 mx-auto" style="margin-top: 170vh;">
+<div class="d-flex flex-column w-75 mx-auto mt-5">
   <h4 class="fw-bold text-center">{{'projects.title' | translate}}</h4>
 
   <div class=" d-inline-flex flex-row flex-wrap justify-content-between pb-5">
@@ -8,21 +8,27 @@
     [title]="'projects.project1.title' | translate"
     [link]="'/restaurant-manager'"
     [sameSite]="true"
-    [img]="'https://cdn2.f-cdn.com/contestentries/1440473/30778261/5bdd02db9ff4c_thumb900.jpg'"/>
+    [technologies]="['Laravel API', 'Angular', 'JWT', 'Mobile']"
+    [img]="'fa-solid fa-bowl-food'"/>
 
     <app-card-project
     [classColor]="'blue'"
     [description]="'projects.project2.description' | translate"
     [title]="'projects.project2.title' | translate"
+    [link]="'https://murmuring-springs-15317-c7f0469d0bb9.herokuapp.com/sign-in'"
     [sameSite]="false"
-    [img]="'https://cdn2.f-cdn.com/contestentries/1440473/30778261/5bdd02db9ff4c_thumb900.jpg'"/>
+    [technologies]="['Laravel', 'JQuery', 'Ecommerce', 'Desktop']"
+    [img]="'fa-solid fa-boxes-stacked'"/>
 
     <app-card-project
     [classColor]="'aquamarine'"
     [description]="'projects.project3.description' | translate"
     [title]="'projects.project3.title' | translate"
     [sameSite]="false"
-    [img]="'https://cdn2.f-cdn.com/contestentries/1440473/30778261/5bdd02db9ff4c_thumb900.jpg'"/>
+    [link]="'https://aqueous-cliffs-23137-7c4afd298961.herokuapp.com/login?/'"
+    [technologies]="['Laravel', 'JQuery', 'Bootstrap', 'Desktop']"
+    [img]="'fa-solid fa-store'"/>
+
   </div>
 
 </div>

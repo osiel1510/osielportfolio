@@ -1,37 +1,40 @@
 {
+  "navbar" : {
+    "home": "Inicio"
+  },
   "profile": {
     "name": "Osiel Ordoñez",
-    "subtitle": "Web Developer",
-    "fact1" : "Soy diogo",
-    "fact2" : "Soy diogo",
-    "fact3" : "Soy diogo",
+    "subtitle": "Desarrollador Web",
+    "fact1" : "¡Mucho gusto, bienvenido a mi portafolio!",
+    "fact2" : "¡Amo programar, diseñar y aprender cosas nuevas!",
+    "fact3" : "Siéntete libre de contactarme o echar un vistazo a mi trabajo.",
     "portfolio" : "Portafolio"
   },
   "projects": {
     "visit": "Visitar Sitio",
     "title" : "Mis proyectos destacados",
-    "project1" : {"title" : "Restaurant Administrator", "description": "lorem lorem lorem loremlorem loremlorem loremlorem loremlorem loremlorem loremlorem lorem",
+    "project1" : {"title" : "LinkFood", "description": "LinKFood es un sistema web dedicado a las necesidades de restaurantes, desde un menú virtual estilo Rappi, hasta manejo de comandas y estadísticas de venta.",
       "subproject1" : {
-        "title": "Title",
-        "description": "Description"
+        "title": "Menú Online",
+        "description": "Este módulo corresponde al menú online, en donde se puede visualizar la información del restaurnate como horarios, ubicaciones, redes, además de ver los productos y hacer pedidos."
       },
       "subproject2" : {
-        "title": "Title",
-        "description": "Description"
+        "title": "Manejo de comandas y pedidos",
+        "description": "En este módulo acceden los meseros y cajeros, en donde pueden dar de alta mesas, registrar pedidos, cobrar pedidos así como consultar pedidos pasados."
       },
       "subproject3" : {
-        "title": "Title",
-        "description": "Description"
+        "title": "Módulo administrador",
+        "description": "En este módulo se registran los productos, categorías y opciones de las mismas, además de personalizar la información del restaurante y visualizar estadísticas de venta."
       }
   },
-    "project2" : {"title" : "Restaurant Administrator", "description": "lorem lorem lorem loremlorem loremlorem loremlorem loremlorem loremlorem loremlorem lorem"},
-    "project3" : {"title" : "Restaurant Administrator", "description": "lorem lorem lorem loremlorem loremlorem loremlorem loremlorem loremlorem loremlorem lorem"}
+    "project2" : {"title" : "Recepción de bienes y servicios", "description": "Consiste en una aplicación sencilla con implementación de modales de bootstrap, selectores con búsqueda, datatables y generación de reportes PDF."},
+    "project3" : {"title" : "Vikitech", "description": "Vikitech es un tipo ecommerce que permite mostrar artículos de la tienda, hacer un carrito y hacer pedidos. Del lado del administrador, se pueden personalizar las categorías, productos y anuncios, además de gestionar los pedidos."}
   },
   "timeline": {
     "title": "Línea del tiempo",
-    "date1": {"title":"", "jobTitle":"", "description":""},
-    "date2": {"title":"", "jobTitle":"", "description":""},
-    "date3": {"title":"", "jobTitle":"", "description":""}
+    "date1": {"title":"Gobierno del Estado", "jobTitle":"Desarrollador Web", "description":"Durante mi estancia he desarrollado sistemas completos en la plataforma Google Appsheet, los cuales han sido de mucha utilidad a la secretaría"},
+    "date2": {"title":"COBAT | Prácticas profesionales", "jobTitle":"Desarrollador Web", "description":"En mis prácticas profesionales desarrollé un sistema para la subida y el manejo de material didáctico para alumnos del COBAT."},
+    "date3": {"title":"Mi Rayotaxi", "jobTitle":"Desarrollador Web", "description":"Colaboré con otros desarrolladores para la implementación de características en un sistema de taxis tipo Uber."}
   },
   "months": {
     "jan": "Ene",

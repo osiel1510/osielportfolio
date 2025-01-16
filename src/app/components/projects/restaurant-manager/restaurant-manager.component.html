@@ -1,4 +1,4 @@
-<div class="container-fluid bg-body vh-150 pt-5" data-bs-theme="dark" >
+<div class="container-fluid bg-body pt-5" data-bs-theme="dark" >
 
   <div class="d-flex flex-column w-75 mx-auto pb-5" style="">
     <h4 class="fw-bold text-center text-white">{{'projects.project1.title' | translate}}</h4>
@@ -8,25 +8,32 @@
       [classColor]="'green'"
       [description]="'projects.project1.subproject1.description' | translate"
       [title]="'projects.project1.subproject1.title' | translate"
-      [link]="'/restaurant-manager'"
+      [link]="'https://whispering-dawn-48217-bb93d95529fc.herokuapp.com/mobile/menu/1'"
       [sameSite]="false"
-      [img]="'https://cdn2.f-cdn.com/contestentries/1440473/30778261/5bdd02db9ff4c_thumb900.jpg'"/>
+      [technologies]="['Mobile']"
+      [img]="'fa-solid fa-utensils'"/>
 
       <app-card-project
       [classColor]="'green'"
       [description]="'projects.project1.subproject2.description' | translate"
       [title]="'projects.project1.subproject2.title' | translate"
+      [link]="'https://whispering-dawn-48217-bb93d95529fc.herokuapp.com/login/cajero@cajero.com/cajero123'"
+      [technologies]="['Mobile']"
       [sameSite]="false"
-      [img]="'https://cdn2.f-cdn.com/contestentries/1440473/30778261/5bdd02db9ff4c_thumb900.jpg'"/>
+      [img]="'fa-solid fa-file-signature'"/>
 
       <app-card-project
       [classColor]="'green'"
       [description]="'projects.project1.subproject3.description' | translate"
       [title]="'projects.project1.subproject3.title' | translate"
       [sameSite]="false"
-      [img]="'https://cdn2.f-cdn.com/contestentries/1440473/30778261/5bdd02db9ff4c_thumb900.jpg'"
+      [technologies]="['Desktop']"
+      [link]="'https://whispering-dawn-48217-bb93d95529fc.herokuapp.com/login/admin@admin.com/admin123'"
+      [img]="'fa-solid fa-screwdriver-wrench'"
       style="margin-bottom: 100px;"/>
     </div>
 
   </div>
 </div>
+
+<app-background-animation></app-background-animation>
