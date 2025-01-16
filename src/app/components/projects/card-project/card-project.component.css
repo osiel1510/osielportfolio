@@ -1,7 +1,7 @@
 .project-card {
   width: 350px; /* Ancho predeterminado */
   color: white;
-  height: 450px;
+  height: 400px;
   margin-top: 20px;
   transition: all 0.3s ease-in-out; /* Transición para un ajuste suave */
 }
@@ -27,7 +27,8 @@ a {
 @media (max-width: 768px) {
   .project-card {
     width: 280px; /* Reduce el ancho */
-    height: 400px; /* Reduce la altura */
+    height: fit-content; /* Reduce la altura */
+    padding-bottom: 25px;
   }
 
   .d-inline-flex.flex-row.flex-wrap.justify-content-between {
