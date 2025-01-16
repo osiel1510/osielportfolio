@@ -1,0 +1,13 @@
+<div [ngClass]="this.classColor" class="shadow-lg rounded project-card px-3 pt-3">
+  <div class="d-inline-flex flex-column justify-content-center">
+    <img class="mx-auto rounded-circle" style="width: 100px; height: 100px;" [src]="this.img">
+    <h4 class="fw-semibold mt-3">{{this.title}}</h4>
+    <p class="fw-normal">{{this.description}}</p>
+  </div>
+
+  @if (this.sameSite) {
+    <a  class="fw-semibold mt-auto" routerLink="{{this.link}}">{{'projects.visit' | translate}}</a>
+  } @else {
+    <a class="fw-semibold mt-auto" [href]="this.link">{{'projects.visit' | translate}}</a>
+  }
+</div>

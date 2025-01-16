@@ -1,0 +1,53 @@
+{
+  "profile": {
+    "name": "Osiel Ordoñez",
+    "subtitle": "Web Developer",
+    "fact1" : "Soy diogo",
+    "fact2" : "Soy diogo",
+    "fact3" : "Soy diogo",
+    "portfolio" : "Portafolio"
+  },
+  "projects": {
+    "visit": "Visitar Sitio",
+    "title" : "Mis proyectos destacados",
+    "project1" : {"title" : "Restaurant Administrator", "description": "lorem lorem lorem loremlorem loremlorem loremlorem loremlorem loremlorem loremlorem lorem",
+      "subproject1" : {
+        "title": "Title",
+        "description": "Description"
+      },
+      "subproject2" : {
+        "title": "Title",
+        "description": "Description"
+      },
+      "subproject3" : {
+        "title": "Title",
+        "description": "Description"
+      }
+  },
+    "project2" : {"title" : "Restaurant Administrator", "description": "lorem lorem lorem loremlorem loremlorem loremlorem loremlorem loremlorem loremlorem lorem"},
+    "project3" : {"title" : "Restaurant Administrator", "description": "lorem lorem lorem loremlorem loremlorem loremlorem loremlorem loremlorem loremlorem lorem"}
+  },
+  "timeline": {
+    "title": "Línea del tiempo",
+    "date1": {"title":"", "jobTitle":"", "description":""},
+    "date2": {"title":"", "jobTitle":"", "description":""},
+    "date3": {"title":"", "jobTitle":"", "description":""}
+  },
+  "months": {
+    "jan": "Ene",
+    "feb": "Feb",
+    "march": "Marzo",
+    "april": "Abril",
+    "may": "Mayo",
+    "june": "Junio",
+    "july": "Julio",
+    "aug": "Ago",
+    "sept": "Sept",
+    "oct": "Oct",
+    "nov": "Nov",
+    "dec": "Dic"
+  },
+  "time": {
+    "present" : "Actualidad"
+  }
+}

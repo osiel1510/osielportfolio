@@ -1,0 +1,32 @@
+<div class="container-fluid bg-body vh-150 pt-5" data-bs-theme="dark" >
+
+  <div class="d-flex flex-column w-75 mx-auto pb-5" style="">
+    <h4 class="fw-bold text-center text-white">{{'projects.project1.title' | translate}}</h4>
+
+    <div class=" d-inline-flex flex-row flex-wrap justify-content-between pb-5">
+      <app-card-project
+      [classColor]="'green'"
+      [description]="'projects.project1.subproject1.description' | translate"
+      [title]="'projects.project1.subproject1.title' | translate"
+      [link]="'/restaurant-manager'"
+      [sameSite]="false"
+      [img]="'https://cdn2.f-cdn.com/contestentries/1440473/30778261/5bdd02db9ff4c_thumb900.jpg'"/>
+
+      <app-card-project
+      [classColor]="'green'"
+      [description]="'projects.project1.subproject2.description' | translate"
+      [title]="'projects.project1.subproject2.title' | translate"
+      [sameSite]="false"
+      [img]="'https://cdn2.f-cdn.com/contestentries/1440473/30778261/5bdd02db9ff4c_thumb900.jpg'"/>
+
+      <app-card-project
+      [classColor]="'green'"
+      [description]="'projects.project1.subproject3.description' | translate"
+      [title]="'projects.project1.subproject3.title' | translate"
+      [sameSite]="false"
+      [img]="'https://cdn2.f-cdn.com/contestentries/1440473/30778261/5bdd02db9ff4c_thumb900.jpg'"
+      style="margin-bottom: 100px;"/>
+    </div>
+
+  </div>
+</div>

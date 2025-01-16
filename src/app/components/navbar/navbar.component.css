@@ -1,0 +1,89 @@
+@charset "UTF-8";
+.flag-icon-background, .flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat; }
+
+.flag-icon {
+  position: relative;
+  display: inline-block;
+  width: 1.3333333333em;
+  line-height: 1em; }
+  .flag-icon:before {
+    content: " "; }
+  .flag-icon.flag-icon-squared {
+    width: 1em; }
+
+    .flag-icon-mex.flag-icon-squared {
+      background-image: url(/flags/1x1/mex.svg);
+    }
+
+    .flag-icon-usa.flag-icon-squared {
+      background-image: url(/flags/1x1/usa.svg);
+    }
+
+    .flag-icon-mex,
+    .flag-icon-usa {
+      display: inline-block;
+      width: 20px; /* Ajusta el tamaño según lo necesites */
+      height: 20px;
+      background-size: cover;
+      background-position: center;
+    }
+
+.flag-icon-usa {
+  background-image: url('/flags/1x1/usa.svg');
+}
+
+.flag-icon-mex {
+  background-image: url('/flags/1x1/mex.svg');
+}
+
+/* Asegura que el switch tenga color sólido siempre */
+.custom-switch {
+  appearance: none;
+  -webkit-appearance: none; /* Para compatibilidad con Safari */
+  width: 50px;
+  height: 25px;
+  background-color: #007bff; /* Color predeterminado (azul) */
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-switch:before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 21px;
+  height: 21px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.custom-switch:checked {
+  background-color: #28a745; /* Cambia a verde cuando está encendido */
+}
+
+.custom-switch:checked:before {
+  transform: translateX(25px); /* Mueve el botón blanco a la derecha */
+}
+
+.custom-switch:focus {
+  box-shadow: none; /* Quita el contorno azul */
+  border: none;
+}
+
+.custom-switch:hover {
+  background-color: #0056b3; /* Oscurece el azul al pasar el mouse */
+}
+
+.custom-switch:checked:hover {
+  background-color: #218838; /* Oscurece el verde al pasar el mouse */
+}
+
+
+

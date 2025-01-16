@@ -1,0 +1,53 @@
+.project-card {
+  width: 350px; /* Ancho predeterminado */
+  color: white;
+  height: 400px;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out; /* Transición para un ajuste suave */
+}
+
+.green {
+  background-color: green;
+}
+
+.aquamarine {
+  background-color: #5FD0B4;
+}
+
+.blue {
+  background-color: #003f8c;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+  .project-card {
+    width: 280px; /* Reduce el ancho */
+    height: 400px; /* Reduce la altura */
+  }
+
+  .d-inline-flex.flex-row.flex-wrap.justify-content-between {
+    justify-content: center; /* Alinea las tarjetas al centro */
+  }
+
+  .project-card img {
+    width: 80px; /* Reduce el tamaño de las imágenes */
+    height: 80px;
+  }
+
+  .project-card h4 {
+    font-size: 1.2rem; /* Ajusta el tamaño del texto */
+  }
+
+  .project-card p {
+    font-size: 0.9rem; /* Texto más pequeño */
+  }
+
+  .project-card a {
+    font-size: 0.9rem;
+  }
+}
